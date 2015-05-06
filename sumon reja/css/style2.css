@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic,300);
+
+*{
+	-webkit-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+.section{
+	text-align:center;
+}
+#section0,
+#section1,
+#section2{	
+	background-size:cover;
+	background-attachment: fixed;
+}
+#section0{
+	background-image: url('../img/bg.jpg');
+	background-position: 0px 0px;
+}
+#section1{
+	background-image: url('../img/zxcvb.png');
+	background-position: 0px 0px;
+}
+
+/*#section0 div.overlay{
+	background-color:rgba(0, 0, 0, 0.7);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin:0;
+	padding:0;
+}*/
+#section0{
+	color:#fff;
+}
+#section0 img.one-img{
+	/*margin:40px 0px;*/
+	position: absolute; 
+	top: 0;
+}
+#section0 img.two-img{
+	position: absolute;
+	bottom: 0;
+}
+
+#section1 img.one-img{
+	/*margin:40px 0px;*/
+	position: absolute; 
+	top: 0;
+}
+#section1 p.bot{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+}
+/*#section0 h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}*/
+#section0 div.about-text{
+	/*margin:9% 0 0;*/
+}
+#section0 div.underline-bar{
+	/*margin:30px 0px;*/
+}
+#section0 div.underline-bar ul li{
+	/*display: inline-block;
+	width:20px;
+	height: 1px;
+	background-color:#ffb347;
+	margin:0px 5px;*/
+}
+#section0 div.underline-bar ul li:nth-child(2){
+	/*width:50px;*/
+}
+#section0 div.info span{
+	/*font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;*/
+}
+/*section1
+=======================*/
+
+
+#fullpage div.section img{
+	/*position: absolute;*/
+}

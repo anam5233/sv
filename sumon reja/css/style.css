@@ -1,0 +1,330 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic,300);
+
+*{
+	-webkit-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+.section{
+	text-align:center;
+}
+#section0,
+#section1,
+#section2{	
+	background-size:cover;
+	background-attachment: fixed;
+}
+#section0{
+	background-image: url('../img/bg.jpg');
+	background-position: 0px 0px;
+}
+
+
+#section0 div.overlay{
+	background-color:rgba(0, 0, 0, 0.7);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin:0;
+	padding:0;
+}
+#section0{
+	color:#fff;
+}
+#section0 img.img-one{
+	position: absolute;
+	top: 0;
+	/*margin:40px 0px;*/
+}
+#section0 img.img-two{
+	position: absolute;
+	bottom: 0;
+	/*margin:40px 0px;*/
+}
+#section0 h1{
+	font-size: 48px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+#section0 div.about-text{
+	/*margin:9% 0 0;*/
+}
+#section0 div.underline-bar{
+	margin:30px 0px;
+}
+#section0 div.underline-bar ul li{
+	display: inline-block;
+	width:20px;
+	height: 1px;
+	background-color:#ffb347;
+	margin:0px 5px;
+}
+#section0 div.underline-bar ul li:nth-child(2){
+	width:50px;
+}
+#section0 div.info span{
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+
+/*section1
+=======================*/
+#section1{
+	background-image: url('../img/zxcvb.jpg');
+	background-position: 0px 0px;
+}
+#section1 .overlay-one{
+	
+}
+#section1 div.sec{
+	
+}
+#section1 div.sec h1{
+	
+}
+#section1 div.underline-bar ul li{
+	
+}
+#section1 div.underline-bar ul li:nth-child(2){
+	
+}
+
+#section1 div.secmacbook{
+	background: url('../img/macbook.png') no-repeat center center;	
+	background-size: 100%;	
+	border:solid 1px transparent;
+	width: 60%;
+	margin:0px auto;
+	border:solid 1px red;	
+}
+
+#owl-demo{	
+	position: relative;
+	width:75%;
+	margin:0px auto ;	
+	top:50px;
+	border:solid 1px blue;
+	display: inline-block;	
+}
+
+#owl-demo .item img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#owl-demo .owl-buttons{
+	margin-top:11%;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	background:#d2d3d5;
+	color:#989898;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	background:#ffb347;
+	color:#fff;
+}
+#owl-demo .owl-buttons .owl-prev, 
+#owl-demo .owl-buttons .owl-next{
+	width:43px;
+	height: 34px;
+	line-height: 38px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	filter: Alpha(Opacity=100);
+	/*IE7 fix*/
+	opacity: 1;
+}
+
+#section1 img.img-one{
+	position: absolute;
+	top: 0;
+	
+}
+#section1 img.img-two{
+	position: absolute;
+	bottom: 0;
+	
+}
+
+#owl-demo .owl-prev{
+	
+}
+#section1 div.moreitem{
+	position: absolute;
+	display: inline-block;
+	bottom:2%;
+	
+	left:10px;
+	right: 10px;
+	
+
+}
+#section1 div.moreitem h2{
+	
+}
+#section1 div.moreitem h2 a{
+	
+}
+#section1 div.moreitem h2 a:hover{
+	
+}
+
+/*media query
+====================*/
+@media screen and (max-width: 1199px) {
+	#section1 div.secmacbook{		
+		margin:55px auto 0px;
+			
+	}
+}
+@media screen and (max-width: 991px) {
+	#section1 div.secmacbook{		
+		margin:0px auto 0px;
+			
+	}
+	#section1{
+		background: none;
+		background-color:#ffd46c;
+		
+	}
+}
+/*@media screen and (min-width: 768px) and (max-width: 800px) {
+ 	#section1 div.secmacbook{
+		
+		width: 90%;
+		margin:0px auto;
+		border:solid 1px red;	
+	}
+	#owl-demo{	
+		position: relative;
+		width:75%;
+		margin:0px auto 0px;	
+		
+		
+	}
+}*/
+@media screen and (max-width: 800px) {
+	#section1 div.secmacbook{
+		
+		width: 90%;
+		margin:0px auto;
+		border:solid 1px red;	
+	}
+	#owl-demo{	
+		position: relative;
+		width:75%;
+		margin:0px auto 0px;	
+		
+		
+	}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	
+}
+@media screen and (max-width: 480px) {
+	#section1 div.secmacbook{
+		height: 100%;
+		width: 75%;
+		margin:0px auto;
+		border:solid 1px red;	
+	}
+	#owl-demo{	
+		position: relative;
+		width:75%;
+		margin:20px auto 0px;	
+	}
+	#owl-demo .owl-buttons .owl-prev, 
+	#owl-demo .owl-buttons .owl-next{
+		width:15px;
+		height: 15px;
+		line-height: 1;
+		/*padding: 0;*/
+		
+	}
+	#owl-demo .owl-buttons .owl-prev i,
+	#owl-demo .owl-buttons .owl-next i{
+		/*color:red;*/
+		font-size:20px;
+		margin-top:-2px;
+	}
+	#owl-demo .owl-buttons{
+		margin-top:9%;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	#section1 div.secmacbook{
+		height: 54%;
+		width: 85%;
+		margin:0px auto;
+		/*border:solid 1px red;	*/
+	}
+	#owl-demo{	
+		/*position: relative;*/
+		width:75%;
+		margin:10px auto 0px;	
+	}
+	#owl-demo .owl-buttons .owl-prev, 
+	#owl-demo .owl-buttons .owl-next{
+		width:15px;
+		height: 15px;
+		line-height: 1;
+		/*padding: 0;*/
+		
+	}
+	#owl-demo .owl-buttons .owl-prev i,
+	#owl-demo .owl-buttons .owl-next i{
+		/*color:red;*/
+		font-size:20px;
+		margin-top:-2px;
+	}
+	#owl-demo .owl-buttons{
+		margin-top:11%;
+	}
+
+}
+
+
+
+
+<style type="text/css">
+    /* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    */
+    @media only screen and (min-width:960px){
+        /* styles for browsers larger than 960px; */
+    }
+    @media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width:2000px){
+        /* for sumo sized (mac) screens */
+    }
+    @media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
+
+    @media screen and (min-width:400px) and (max-width:900px){
+	   ...
+	}
+</style>
